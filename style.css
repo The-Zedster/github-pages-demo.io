@@ -1,16 +1,16 @@
 body {
-  background-color: lightblue;
+  background-color: rgb(145, 104, 184);
   font-family: 'Indie Flower', cursive;
   margin: 0px;
 }
 
 h3 {
-  color: purple;
+  color: #620080;
   text-decoration: underline;
 }
 
 footer {
-  background-color: #adbce6;
+  background-color: #d9ade6;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -27,9 +27,16 @@ footer {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-#profile-picture {
+#profile-picture-1 {
   width: 250px;
   height: auto;
+  align-self: center;
+  border-radius: 5px;
+}
+
+#profile-picture-2 {
+  width: 250px;
+  height: 220px;
   align-self: center;
   border-radius: 5px;
 }
@@ -45,6 +52,6 @@ footer {
 .social-media {
   font-size: 25px;
   margin: 5px;
-  color: #0077b5;
+  color: #620080;
   text-decoration: none;
 }
